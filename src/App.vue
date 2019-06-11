@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <common-header></common-header>
     <router-view/>
   </div>
 </template>
+
+<script>
+  import commonHeader from './components/commonHeader'
+  export default {
+    name: 'app',
+    components: {
+      commonHeader,
+    }
+  }
+</script>
 
 <style lang="less">
 #app {
