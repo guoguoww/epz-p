@@ -3,4 +3,25 @@
     margin: 0;
     padding: 0;
 }
+.w1200 {
+    width: 1200px;
+    margin: auto;
+}
+.container {
+    width: 100%;
+}
+.fleft {
+    float: left;
+}
+.fright {
+    float: right;
+}
+.clearFix:before,.clearFix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+li {
+    list-style: none;
+}
 
