@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <common-header></common-header>
+    <common-header v-show="$route.path !='/login'"></common-header>
     <router-view/>
   </div>
 </template>
